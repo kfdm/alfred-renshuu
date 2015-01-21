@@ -57,7 +57,7 @@
 				<key>runningsubtext</key>
 				<string>読み込み中</string>
 				<key>script</key>
-				<string></string>
+				<string>/usr/bin/env python renshuu.py "{query}"</string>
 				<key>subtext</key>
 				<string>文法を入れて下さい</string>
 				<key>title</key>

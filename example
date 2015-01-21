@@ -1,2 +1,3 @@
 #!/bin/sh
-curl 'https://www.renshuu.org/index.php?page=grammar/search&pg=0&output=dictionary&search=1&bcat_id=&gstring='"$*" | tr ' ' "\n" | grep href
+curl 'https://www.renshuu.org/index.php?page=grammar/search&pg=0&output=dictionary&search=1&bcat_id=&gstring='"$*" |\
+ tr ' ' "\n" | grep href
