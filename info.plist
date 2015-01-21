@@ -5,7 +5,19 @@
 	<key>bundleid</key>
 	<string>net.kungfudiscomonkey.alfred.renshuu</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>45228A89-4CFC-44FD-9246-95A4AD5FA2FF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CF553B66-1FB7-42D3-9850-164E2A0B04BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string>Paul Traylor</string>
 	<key>description</key>
@@ -15,11 +27,69 @@
 	<key>name</key>
 	<string>Renshuu.org</string>
 	<key>objects</key>
-	<array/>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>CF553B66-1FB7-42D3-9850-164E2A0B04BF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>grammar</string>
+				<key>runningsubtext</key>
+				<string>読み込み中</string>
+				<key>script</key>
+				<string></string>
+				<key>subtext</key>
+				<string>文法を入れて下さい</string>
+				<key>title</key>
+				<string>文法を探そう</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>45228A89-4CFC-44FD-9246-95A4AD5FA2FF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
-	<dict/>
+	<dict>
+		<key>45228A89-4CFC-44FD-9246-95A4AD5FA2FF</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>CF553B66-1FB7-42D3-9850-164E2A0B04BF</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
 	<key>webaddress</key>
 	<string>http://kungfudiscomonkey.net</string>
 </dict>
